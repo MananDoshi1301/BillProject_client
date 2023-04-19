@@ -18,7 +18,7 @@ const Bills = () => {
         </h1>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 sm:px-10 md:px-0 gap-6 my-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 sm:px-10 md:px-8 gap-6 my-10'>
         {
           billsDoc.map((item, key) => (
             <div key={key} className='text-gray-50 bg-stone-800 rounded-2xl p-4'>
