@@ -1,6 +1,6 @@
 import React from 'react';
 import moneyImg from "../../images/money1.jpg";
-import Navbar from '../common/Navbar';
+// import Navbar from '../common/Navbar';
 
 const Home = () => {
 
