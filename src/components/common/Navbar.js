@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='sticky top-0 p-3 px-5 flex flex-row justify-between items-center bg-stone-800 text-gray-50 drop-shadow-[0px_10px_20px_rgba(255,255,255,0.15)]'>
+      <nav className='sticky top-0 p-3 px-5 flex flex-row justify-between items-center bg-stone-800 text-gray-50 drop-shadow-[0px_10px_15px_rgba(255,255,255,0.1)]'>
         <div className='flex flex-row items-center justify-between w-full'>
           <div>
             <img src="#" alt="Vimlesh Doshi" srcSet="" />
