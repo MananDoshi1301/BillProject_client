@@ -3,6 +3,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: #44403c;
+}
+
 .fw-100{
   font-weight: 100!important;
 }
