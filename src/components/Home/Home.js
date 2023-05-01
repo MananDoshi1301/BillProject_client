@@ -26,7 +26,7 @@ const Home = () => {
   }
 
   const styleElems = {
-    backgroundImage: `url(${moneyImg})`,
+    // backgroundImage: `url(${moneyImg})`,
     minHeight: "100vh",
     width: "100vw",
     backgroundRepeat: "no-repeat",
@@ -35,14 +35,13 @@ const Home = () => {
   }
   return (
     <div className='' style={styleElems}>
-      {/* <Navbar /> */}
       <NavbarComp />
-      <div className='container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 drop-shadow-2xl mt-8 px-8 sm:px-8 md:px-4'>
 
-        <div />
-        <div className='lg:block md:hidden' />
 
-        <div className='bg-stone-800 text-white rounded-lg p-9 '>
+      <div className='container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 drop-shadow-2xl px-8 sm:px-8 md:px-4' style={{ "marginTop": "8vh" }}>
+
+        <div></div>
+        <div className='bg-blue-1000 text-white rounded-3xl p-9 '>
           <div>
             <h1 className='text-5xl sm:text-6xl md:text-6xl lg:text-6xl  font-black'>
               The&nbsp;
@@ -53,13 +52,13 @@ const Home = () => {
 
           <div className='mt-4'>
             <form className="">
-              <div className="mb-4">
+              <div className="mt-8 mb-4">
                 <label className="block text-gray-400 text-sm font-bold mb-2" htmlFor="email">
                   Email
                 </label>
                 <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email" />
               </div>
-              <div className="mb-6">
+              <div className="mb-8">
                 <label className="block text-gray-400 text-sm font-bold mb-2" htmlFor="password">
                   Password
                 </label>
@@ -77,6 +76,7 @@ const Home = () => {
             </form>
           </div>
         </div>
+
       </div>
     </div>
   )

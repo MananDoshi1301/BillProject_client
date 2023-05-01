@@ -4,14 +4,24 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    // colors: {
-    //   "black": "#000000",
-    //   "blue": "#14213d",
-    //   "yellow": "#fca311",
-    //   "grey": "#e5e5e5",
-    //   "white": "#ffffff",
-    // },
-    extend: {},
+    extend: {
+      colors: {
+        "black": {
+          1000: "#000000",
+        },
+        "blue": {
+          1000: "#14213d",
+        },
+        "yellow": {
+          1000: "#fca311",
+        },
+        "grey": {
+          1000: "#e5e5e5",
+        },
+        "white": "#ffffff",
+      },
+    },
+    // extend: {},
   },
   plugins: [],
 }

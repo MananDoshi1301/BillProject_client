@@ -7,10 +7,10 @@ import Bills from './components/Bills/Bills'
 const Assembler = () => {
   return (
     <>
-      <Navbar />
-      {/* <Home /> */}
+      {/* <Navbar /> */}
+      <Home />
       {/* <Dashboard /> */}
-      <Bills />
+      {/* <Bills /> */}
     </>
   )
 }
